@@ -73,7 +73,7 @@ body{
 <body>
 	<div class="m-share" id="m-shares">
 		<div class="share-content" onclick="window.location.href='http://www.baidu.com';">
-			<img src="fx-1.jpg"/ class="share-content-img">
+			<img src="https://github.com/jeremyxieze/20160411test/blob/master/fx-1.jpg"/ class="share-content-img">
 			<div class="share-info">
 				<p>桂花稠酒</p>
 				<div class="cost">￥233</div>
