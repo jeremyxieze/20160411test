@@ -68,6 +68,18 @@ body{
 	line-height:0.22rem;
 	color:#9d9d9d;
 }
+.share-bottom-txt{
+	position:fixed;
+	left:0rem;
+	bottom:0rem;
+	width:100%;
+	font-size:0.28rem;
+	line-height:0.28rem;
+	color:#fff;
+	padding:0.30rem 0rem 0.30rem 0rem;
+	background:#ffaa33;
+	text-align:center;
+}
 </style>
 </head>
 <body>
@@ -79,6 +91,9 @@ body{
 				<div class="cost">￥233</div>
 				<span class="shopping-fee">起送价:￥15 | 配送费:￥5</span>
 			</div>
+			<a href="http://www.baidu.com" class="share-bottom-txt">
+				进店购买
+			</a>
 		</div>
 	</div>
    
