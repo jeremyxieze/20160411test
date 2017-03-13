@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sn</title>
+	<script src="http://j0.feiheimg.com/?p=plus/1.0.0/jquery-1.10.2.min.js"></script>
+	<script src="http://j3.feiheimg.com/m/js/1.0.0/fh.global.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="http://c2.feiheimg.com/?p=web/css/1.0.0/global.css&id=2016031601" />
+	
+<style>
+ul {list-style: none;margin:0; padding:0;}
+a{ text-decoration:none;} 
+p{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#fff;
+	font-size:0.12rem;
+	font-family:"Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+	-webkit-font-smoothing:antialiased;
+	margin:0;
+	padding:0;
+	vertical-align:baseline;
+}
+.m-share{
+	width:6.4rem;
+	margin:0 auto;
+	display:table-cell;
+	vertical-align:middle;
+}
+.share-content{
+	width:2rem;
+	height:2rem;
+	background:gray;
+	margin:0 auto;
+}
+
+</style>
+</head>
+<body>
+	<div class="m-share" id="m-shares">
+		<div class="share-content"></div>
+	</div>
+   
+   <script>
+		window.onload=function(){
+			var body_height=document.documentElement.clientHeight;
+			console.log(body_height/100);
+			var change_height=document.getElementById("m-shares");
+			change_height.style.height= (body_height/100)+"rem";
+		}
+   </script>
+</body>
+</html>
