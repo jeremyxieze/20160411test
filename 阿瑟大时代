@@ -27,8 +27,7 @@ body{
 .m-share{
 	width:6.4rem;
 	margin:0 auto;
-	display:table-cell;
-	vertical-align:middle;
+	padding-top:1rem;
 	background:url(https://raw.githubusercontent.com/jeremyxieze/20160411test/master/bj2.jpg);
 	background-repeat:no-repeat;
 	background-position:center center;
