@@ -45,11 +45,11 @@ body{
 	</div>
    
    <script>
-			window.onload=function(){
-			var body_height=window.screen.height;
-			console.log(window.screen.height);
+		window.onload=function(){
+			var body_height=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;
+			console.log(body_height/100);
 			var change_height=document.getElementById("m-shares");
-			change_height.style.height= body_height+"px";
+			change_height.style.height= (body_height/100)+"rem";
 		}
    </script>
 </body>
