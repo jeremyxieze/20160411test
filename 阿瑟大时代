@@ -29,6 +29,9 @@ body{
 	margin:0 auto;
 	display:table-cell;
 	vertical-align:middle;
+	background:url(bj2.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
 }
 .share-content{
 	width:2rem;
@@ -47,9 +50,15 @@ body{
    <script>
 		window.onload=function(){
 			var body_height=document.documentElement.clientHeight;
-			console.log(body_height/100);
+			
+			console.log(body_height);
 			var change_height=document.getElementById("m-shares");
-			change_height.style.height= (body_height/100)+"rem";
+			
+			
+			var asd=document.body.scrollTop;
+			console.log(asd);
+			
+			change_height.style.height= (body_height-asd)+"px";
 		}
    </script>
 </body>
