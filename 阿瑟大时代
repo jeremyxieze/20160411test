@@ -96,8 +96,9 @@ body{
 		</div>
 	</div>
    
-   <script>
+  <script>
 		window.onload=function(){
+			//最外层div的高度
 			var body_height=document.documentElement.clientHeight;
 			
 			console.log(body_height);
@@ -106,8 +107,29 @@ body{
 			
 			var asd=document.body.scrollTop;
 			console.log(asd);
+		
 			
 			change_height.style.height= (body_height-asd)+"px";
+			var test = body_height-asd;
+			
+			//botton距离顶部的高度
+			var dtop =document.getElementsByClassName('share-bottom-txt')[0].offsetTop;
+			console.log(dtop);
+			
+			var test_se = (test-dtop)/2;
+			console.log(test_se);
+			
+			document.getElementById("m-shares").style.paddingTop = test_se+"px";
+			
+			//改变底部href
+			var datas = "http://www.taobao.com";
+			var ahref = document.getElementById("a-href-button").href.innerHTML=datas;
+			document.getElementById("a-href-button").setAttribute('href',ahref);
+			
+			//大图href
+			var chref = document.getElementById("share-content-id").href.innerHTML="http://www.taobao.com";
+			document.getElementById("share-content-id").setAttribute('href',chref);
+
 		}
    </script>
 </body>
