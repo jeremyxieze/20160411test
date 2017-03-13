@@ -29,7 +29,7 @@ body{
 	margin:0 auto;
 	display:table-cell;
 	vertical-align:middle;
-	background:url(bj2.jpg);
+	background:url(https://github.com/jeremyxieze/20160411test/blob/master/bj2.jpg);
 	background-repeat:no-repeat;
 	background-position:center center;
 }
