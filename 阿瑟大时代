@@ -46,7 +46,7 @@ body{
    
    <script>
 		window.onload=function(){
-			var body_height=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;
+			var body_height=document.documentElement.clientHeight;
 			console.log(body_height/100);
 			var change_height=document.getElementById("m-shares");
 			change_height.style.height= (body_height/100)+"rem";
